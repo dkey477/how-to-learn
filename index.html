@@ -3,11 +3,201 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./styles/normalize.css" rel="stylesheet">
+  <link href="./styles/style.css" rel='stylesheet'>
   <title>Научиться учиться</title>
 </head>
 <body>
   <div class="page">
+    <!--оформление блока header-->
+    <header class="header">
+      <section class="logo__place_header">
+        <img src="./images/logo_place_header.svg" alt="логотип">
+      </section>
+      <section class="header__title">
+      	<h1 class="header__title_h1">Научиться учиться</h1>
+      </section>
+      <section class="header__subtitle">
+      	<p class="header__subtitle_p">Какие современные и эффектиВные подходы к обучению вы можете использовать в своей жизни?
+        	<a href="#" class="header__link">Узнать →</a>
+      	</p>
+      </section>
+      <section class="header__main-illustration">
+        <img class="image__main-illustration" src="./images/header-image.png" alt="опять двойка">
+      </section>
+      <section class="header__square-pic"></section>
+    </header>
+    <!--оформление блока description-->
+    <div class="description">
+      <section class="two-columns">
+        <section class="two-columns__brief">
+          <h1 class="two-columns__brief_h1">Главные проблемы в обучении</h1>
+        </section>
+        <section class="two-columns__main-text">
+          <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.</p>
+          <p class="two-columns__paragraph"><span class="two-columns__span-accent">Вывод:</span> учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?</p>
+          <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
+        </section>
+      </section>
+    </div>
+       <!--оформление блока digits-->
+      <div class="digits">
+        <section class="section-title">
+          <h1>Цифры и факты</h1>
+        </section>
+        <section class="section-subtitle">
+          <h2>Про учёбу и мозг</h2>
+        </section>
+        <section class="table">
+          <ul class="table__cell">
+            <li class="table__heading">86 миллиардов</li>
+            <li class="table__text">Число нейронов в мозге человека</li>
+          </ul>
+          <ul class="table__cell">
+            <li class="table__heading">2.1 миллиарда</li>
+            <li class="table__text">Число нуждающихся в повышении квалификации</li>
+            <li class="table__text">Всемирный Банк, 2017</li>
+          </ul>
+          <ul class="table__cell">
+            <li class="table__heading">1000 терабайт</li>
+            <li class="table__text">Объём памяти человека</li>
+          </ul>
+          <ul class="table__cell">
+            <li class="table__heading">500 триллионов</li>
+            <li class="table__text">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства
+            </li>
+          </ul>
+          <ul class="table__cell">
+            <li class="table__heading">420 миллионов</li>
+            <li class="table__text">Число ответственных за обучение нервных синапсов у взрослого человека</li>
+            <li class="table__text">Всемирный Банк, 2017</li>
+          </ul>
+          <ul class="table__cell">
+            <li class="table__heading">17–20 лет</li>
+            <li class="table__text">Пик обучаемости</li>
+          </ul>
+          <ul class="table__cell">
+            <li class="table__heading">1885 год</li>
+            <li class="table__text">Открытие кривой забывания</li>
+          </ul>
+          <ul class="table__cell">
+            <li class="table__heading">1889 год</li>
+            <li class="table__text">Открытие условного рефлекса</li>
+          </ul>
+        </section>
+      </div>
+      <!--оформление блока feyman-->
+      <div class="feyman">
+        <section class="feyman__title">
+          <h1>Метод Феймана</h1>
+        </section>
+        <section class="feyman__subtitle">
+          <h2>Выучить и не забыть</h2>
+         </section>
+        <section class="feyman__link">
+          <a href="#">Подробнее →</a>
+        </section>
+        <section class="feyman__foto">
+          <img class="image__feyman" src="./images/feynman.png" alt="Ричард Фейман">
+        </section>
+      </div>
+      <!--оформление блока kaufman-->
+     	<div class=kaufman>
+     		<section class="section-title_theme_dark">
+     			<h1>Принцыпы обучения</h1>
+     		</section>
+     		<section class="section-subtitle_theme_dark">
+     			<h2>от Джоша Кауфмана</h2>
+     		</section>
+     		<section class="table_theme_dark">
+     		 <ul class="table__cell_theme_dark">
+            <li class="table__heading_theme_dark">1</li>
+            <li class="table__text_theme_dark">Выберите привлекательный проект</li>
+          </ul>
+          <ul class="table__cell_theme_dark">
+            <li class="table__heading_theme_dark">2</li>
+            <li class="table__text_theme_dark">Сосредоточьтесь на каком-то одном навыке.</li>
+          </ul>
+          <ul class="table__cell_theme_dark">
+            <li class="table__heading_theme_dark">3</li>
+            <li class="table__text">Определите целевой уровень мастерства.</li>
+          </ul>
+          <ul class="table__cell_theme_dark">
+            <li class="table__heading_theme_dark">4</li>
+            <li class="table__text_theme_dark">Разбейте навык на элементы.</li>
+          </ul>
+          <ul class="table__cell_theme_dark">
+            <li class="table__heading_theme_dark">5</li>
+            <li class="table__text_theme_dark">Приготовьте всё необходимое для занятий.</li>
+          </ul>
+          <ul class="table__cell_theme_dark">
+            <li class="table__heading_theme_dark">6</li>
+            <li class="table__text_theme_dark">Устраните препятствия для занятий.</li>
+          </ul>
+          <ul class="table__cell_theme_dark">
+            <li class="table__heading_theme_dark">7</li>
+            <li class="table__text_theme_dark">Выделите специальное время для занятий.</li>
+          </ul>
+          <ul class="table__cell_theme_dark">
+            <li class="table__heading_theme_dark">8</li>
+            <li class="table__text_theme_dark">Создайте быстрые петли обратной связи.</li>
+          </ul>
+          <ul class="table__cell_theme_dark">
+            <li class="table__heading_theme_dark">9</li>
+            <li class="table__text_theme_dark">Занимайтесь по расписанию, короткими интенсивными интервалами.</li>
+          </ul>
+            <ul class="table__cell_theme_dark">
+            <li class="table__heading_theme_dark">10</li>
+            <li class="table__text_theme_dark">Уделяйте внимание количеству и скорости.</li>
+          </ul>
+        </section>
+     		<section class="kaufman__triangle">
+          <img class="image__triangle" src="./images/kaufman-triangle.svg" alt="Треугольник Кауфмана">
+        </section>
+     	</div>
 
-  </div>
-</body>
+      <!--оформление блока footer-->
+      <footer class="footer">
+        <section class="footer__columns">
+          <section class="footer__column_content_copyright">
+            <section class="logo__place_footer">
+              <img  src="./images/logo_place_footer.svg" alt="логотип">
+            </section>
+            <section class="footer_author">
+              <p>&copy; Дмитрий Киреев</p>
+            </section>
+          </section>
+          <section class="footer__column_content_info">
+            <section class="footer__column-heading">
+              <p>О Практикуме</p>
+            </section>
+            <ul class="footer__column-links">
+              <li class="footer__column-link">Главная</li>
+              <li class="footer__column-link">Концепция</li>
+              <li class="footer__column-link">Наcтавники</li>
+            </ul>
+          </section>
+          <section class="footer__column_content_social">
+            <section class="footer__column-heading">
+              <p>Соцсети</p>
+            </section>
+            <ul class="footer__column-links">
+              <li class="footer__column-link">
+                <a class="link_text" href="https://www.youtube.com/">
+                  <img class="footer__social-icon" src="./images/youtube-icon.svg" alt="логотип Youtube">
+                Youtube</a></li>
+              <li class="footer__column-link">
+                <a class="link_text" href="https://vk.com/">
+                <img class="footer__social-icon" src="./images/vk_color_white.svg" alt="логотип VK">
+                Вконтакте</a></li>
+              <li class="footer__column-link">
+              	<a class="link_text" href="https://www.tiktok.com/ru-RU/">
+                <img class="footer__social-icon" src="./images/tiktok-icon.svg" alt="логотип Tiktok">
+                Tiktok</a></li>
+            </ul>
+          </section>
+        </section>
+      </footer>
+	  </div>
+  </body>
 </html>
