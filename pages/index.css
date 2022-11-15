@@ -54,19 +54,19 @@
 /* блоки two-columns__brief,two-columns__main-text и two-columns__paragraph  вызваны выше*/
 
  /* стилизуем блок oakley  ↑*/
- 
+
  /* стилизуем блок feynman  ↓ */
- 
+
  @import url(../blocks/feynman/feynman.css);
  @import url(../blocks/feynman/__title/feynman__title.css);
  @import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
  @import url(../blocks/feynman/__link/feynman__link.css);
  @import url(../blocks/feynman/__foto/feynman__foto.css);
- 
- /* стилизуем блок feynman   */
- 
+
+ /* стилизуем блок feynman  ↑  */
+
  /* стилизуем блок digits ↓*/
- 
+
   @import url(../blocks/digits/digits.css);
  /* блоки section-title и section-subtitle вызваны выше*/
  @import url(../blocks/table/table.css);
@@ -74,8 +74,8 @@
  @import url(../blocks/table/__heading/table__heading.css);
  @import url(../blocks/table/__text/table__text.css);
 
- 
- /* стилизуем блок digits */
+
+ /* стилизуем блок digits ↑*/
 
 /* стилизуем блок khan  ↓*/
 
@@ -90,7 +90,7 @@
 @import url(../blocks/khan/__book-pic/khan__book-pic.css);
 @import url(../blocks/khan/__buy-link/khan__buy-link.css);
 
-/* стилизуем блок khan  */
+/* стилизуем блок khan  ↑*/
 
 /* стилизуем блок kaufman  ↓ */
 
@@ -103,7 +103,7 @@
 @import url(../blocks/table/__text/_theme/table__text_theme_dark.css);
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 
-/* стилизуем блок kaufman   */
+/* стилизуем блок kaufman  ↑ */
 
 /* стилизуем блок resources  ↓*/
 
@@ -113,7 +113,7 @@
 @import url(../blocks/resources/__link/resources__link.css);
 @import url(../blocks/resources/__logo/resources__logo.css);
 
-/* стилизуем блок resources  */
+/* стилизуем блок resources ↑*/
 
 /* стилизуем блок footer  ↓*/
 
