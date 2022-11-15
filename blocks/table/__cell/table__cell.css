@@ -1,0 +1,10 @@
+.table__cell {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  row-gap: 20px;
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  list-style-type: none;
+}
