@@ -1,6 +1,4 @@
 .feynman__title {
-  display: flex;
-  justify-content: center;
   position: relative;
   margin: 0 auto;
   max-width: 648px;
